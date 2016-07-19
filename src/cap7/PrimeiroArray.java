@@ -20,7 +20,7 @@ public class PrimeiroArray {
 		
 		String [] palavras = new String[4]; // "declarando um Array"
 		
-		palavras[0] = "Não";
+		palavras[0] = "Eu";
 		palavras[1] = "estou";
 		palavras[2] = "com";
 		palavras[3] = "sono";
