@@ -13,9 +13,15 @@ public class ExemploSimplesArrayBidimensional {
 						 {5, 4, 2},
 						 {5, 6, 7}};
 		
-		for(int i = 0; i < notas.length; i++){
-			for(int x = 0; x < notas[i].length; x++){
-				System.out.println(notas[i][x]);
+//		for(int i = 0; i < notas.length; i++){
+//			for(int x = 0; x < notas[i].length; x++){
+//				System.out.println(notas[i][x]);
+//			}
+//		}
+		
+		for(int nota[] : notas){
+			for(int n : nota){
+				System.out.println(n);
 			}
 		}
 	}

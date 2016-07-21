@@ -10,6 +10,10 @@ public class ExemploSimplesCriacaoArray {
 		numeros[2] = 30;
 		
 		
-		int valores [] = {100, 200, 300}; //maneira facilitada "pratica" de criar arrays		
+//		int valores [] = {100, 200, 300}; //maneira facilitada "pratica" de criar arrays	
+		
+		for (int i : numeros){
+			System.out.println(i);
+		}
 	}
 }

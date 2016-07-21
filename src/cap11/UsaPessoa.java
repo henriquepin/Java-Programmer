@@ -16,9 +16,13 @@ public class UsaPessoa {
 		pessoas[1].setPeso(87);
 		pessoas[1].setAltura(1.87);
 		
-		pessoas[0].mostrarDados();
-		System.out.println("-----------------------");
-		pessoas[1].mostrarDados();
-
+//		pessoas[0].mostrarDados();
+//		System.out.println("-----------------------");
+//		pessoas[1].mostrarDados();
+		
+		
+		for (Pessoa p : pessoas){
+			p.mostrarDados();
+		}
 	}
 }
