@@ -20,12 +20,6 @@ public class Cap11_Lab1 {
 		 int maior = maiorNumero(numeros);
 		
 		 System.out.println("O maior número da array é: " + maior);
-	}
-			
-			
-		
-		
-		
-		
-	
+	}	
+
 }
