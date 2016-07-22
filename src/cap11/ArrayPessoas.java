@@ -16,7 +16,7 @@ public class ArrayPessoas {
  * 
  * Obs.: a classe ArrayPessoas não pode ser alterada em nada.
  * 
- * A saída deverá ser assim:
+ * A saída deverá ser assim
  
   	Ana:  altura: 1.61 peso: 48.0
 	Bete:  altura: 1.55 peso: 51.0
