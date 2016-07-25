@@ -1,10 +1,16 @@
-package cap9.primeirodesafio;
+package cap9.segundodesafio;
 
 public class Motorista extends Funcionario {
-	int cnh;
+	private int cnh;
+	
+	public void setDados(String nome, double salario, int idade, int cnh){
+		setDados(nome, salario, idade);
+		setCnh(cnh);
+	}
+
 	
 	public void reajustarSalario(){
-		salario += 200;
+		setSalario(getSalario() + 200);
 	}
 	
 	public void setCnh(int cnh){

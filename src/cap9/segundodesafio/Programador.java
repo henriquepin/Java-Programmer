@@ -1,11 +1,17 @@
-package cap9.primeirodesafio;
+package cap9.segundodesafio;
 
 public class Programador extends Funcionario {
-	String linguagem;
+	private String linguagem;
 	
+	
+	public void setDados(String nome, double salario, int idade, String linguagem){
+		setDados(nome, salario, idade);//sobrecarga
+		setLinguagem(linguagem);
+	}
+
 	
 	public void reajustarSalario(){
-		salario += 300;
+		setSalario(getSalario() + 300);
 	}
 	
 	public void setLinguagem(String linguagem){

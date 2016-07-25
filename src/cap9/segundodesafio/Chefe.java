@@ -1,7 +1,13 @@
-package cap9.primeirodesafio;
+package cap9.segundodesafio;
 
 public class Chefe extends Funcionario {
-	String celular;
+	private String celular;
+	
+	public void setDados(String nome, double salario, int idade, String celuar){
+		setDados(nome, salario, idade);//sobrecarga
+		setCelular(celular);
+	}
+
 	
 	public void setCelular(String celular){
 		this.celular = celular;

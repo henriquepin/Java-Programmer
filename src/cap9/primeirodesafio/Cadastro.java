@@ -4,14 +4,16 @@ public class Cadastro {
 
 	public static void main(String[] args) {
 		
-//		Funcionario f = new Funcionario();
-//		f.setNome("Henrique");
-//		f.setIdade(28);
-//		f.setSalario(4000.00);
-//		f.imprimir();//imprimindo antes de reajustar salario
-//		System.out.println("-------------Rejuste de Salário--------------");
-//		f.reajustarSalario();
-//		f.imprimir();
+		Funcionario f = new Funcionario();
+		f.setNome("Henrique");
+		f.setIdade(28);
+		f.setSalario(4000.00);
+		f.imprimir();//imprimindo antes de reajustar salario
+		System.out.println("-------------Rejuste de Salário--------------");
+		f.reajustarSalario();
+		f.imprimir();
+		System.out.println("-------------Rejuste de Salário--------------");
+		
 		
 		Programador p = new Programador();
 		p.setLinguagem("Java");
