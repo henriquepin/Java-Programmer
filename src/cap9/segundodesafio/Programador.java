@@ -11,8 +11,8 @@ public class Programador extends Funcionario {
 
 	
 	public void reajustarSalario(){
-		setSalario(getSalario() + 300);
-	}
+		setSalario(getSalario() + 300);//utilizei os metodos "set" e "get", pois a variavel salario esta privada na classe Funcionario
+ 	}
 	
 	public void setLinguagem(String linguagem){
 		this.linguagem = linguagem;
