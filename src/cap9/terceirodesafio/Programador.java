@@ -8,10 +8,10 @@ public class Programador extends Funcionario {
 		setLinguagem(linguagem);
 	}
 	
-	public void setDados(String nome, double salario, int idade, String linguagem){
-		setDados(nome, salario, idade);//sobrecarga
-		setLinguagem(linguagem);
-	}
+//	public void setDados(String nome, double salario, int idade, String linguagem){
+//		setDados(nome, salario, idade);//sobrecarga
+//		setLinguagem(linguagem);
+//	}
 
 	
 	public void reajustarSalario(){

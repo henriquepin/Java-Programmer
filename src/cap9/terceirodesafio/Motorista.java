@@ -8,10 +8,10 @@ public class Motorista extends Funcionario {
 		setCnh(cnh);
 	}
 	
-	public void setDados(String nome, double salario, int idade, int cnh){
-		setDados(nome, salario, idade);
-		setCnh(cnh);
-	}
+//	public void setDados(String nome, double salario, int idade, int cnh){
+//		setDados(nome, salario, idade);
+//		setCnh(cnh);
+//	}
 
 	
 	public void reajustarSalario(){

@@ -6,16 +6,16 @@ public class Funcionario {
 	private double salario;
 	
 	public Funcionario(String nome, double salario, int idade){//construtor
-		this.nome = nome;
-		this.salario = salario;
-		this.idade = idade;
+		setNome(nome);
+		setSalario(salario);
+		setIdade(idade);
 	}
 	
-	public void setDados(String nome, double salario, int idade){
-		setNome(nome);
-		setIdade(idade);
-		setSalario(salario);
-	}
+//	public void setDados(String nome, double salario, int idade){
+//		setNome(nome);
+//		setIdade(idade);
+//		setSalario(salario);
+//	}
 	
 	
 	public void reajustarSalario(){

@@ -8,10 +8,10 @@ public class Chefe extends Funcionario {
 		setCelular(celular);
 	}
 	
-	public void setDados(String nome, double salario, int idade, String celuar){
-		setDados(nome, salario, idade);//sobrecarga
-		setCelular(celular);
-	}
+//	public void setDados(String nome, double salario, int idade, String celuar){
+//		setDados(nome, salario, idade);//sobrecarga
+//		setCelular(celular);
+//	}
 
 	
 	public void setCelular(String celular){
