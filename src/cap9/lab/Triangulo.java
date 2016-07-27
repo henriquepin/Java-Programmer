@@ -5,7 +5,6 @@ public class Triangulo extends Poligono {
 	double base;
 	
 	public Triangulo(double altura, double base){
-//		super(area);
 		setAltura(altura);
 		setBase(base);
 	}
@@ -27,14 +26,14 @@ public class Triangulo extends Poligono {
 	}
 	
 	public void calcularArea(){
-		setArea(getBase() * getAltura()/2);
+		setArea((getBase() * getAltura())/2);
 //		double area = (getBase() * getAltura())/2;
 //		setArea(area);
 	}
 	
 	public void imprimir(){
-		System.out.println("altura = " + getAltura());
-		System.out.println("base = " + getBase());
-		System.out.println("área = " + getArea());
+		System.out.println("Triangulo [altura = " + getAltura() + ", " + "base = " + getBase() + ", " + "area = " + getArea() + "]");
+//		System.out.println("base = " + getBase());
+//		System.out.println("área = " + getArea());
 	}
 }

@@ -4,7 +4,6 @@ public class Quadrado extends Poligono {
 	double lado;
 	
 	public Quadrado(double lado){
-//		super(area);
 		setLado(lado);
 	}
 	
@@ -23,8 +22,8 @@ public class Quadrado extends Poligono {
 	}
 	
 	public void imprimir(){
-		System.out.println("lado = " + getLado());
-		System.out.println("área = " + getArea());
+		System.out.println("Quadrado [lado = " + getLado() + ", " + "área = " + getArea() + "]");
+//		System.out.println("área = " + getArea());
 	}
 	
 }
