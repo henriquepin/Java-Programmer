@@ -4,11 +4,11 @@ public class RG {
 	private int numeroRG;
 	private String dataNasc;
 	
-	public void setNumero(int numero){
-		this.numeroRG = numero;	
+	public void setNumeroRG(int numeroRG){
+		this.numeroRG = numeroRG;	
 	}
 	
-	public int getNumero(){
+	public int getNumeroRG(){
 		return numeroRG;
 	}
 	
@@ -21,8 +21,12 @@ public class RG {
 	}
 
 	public RG(int numeroRG, String dataNasc){
-		setNumero(numeroRG);
+		setNumeroRG(numeroRG);
 		setDataNasc(dataNasc);
 	}
+	
+//	public String toString() {
+//		return "Numero do RG: " + getNumeroRG() + "\nData do Nascimento: " + getDataNasc();
+//    }
 	
 }

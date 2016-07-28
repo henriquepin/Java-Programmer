@@ -1,10 +1,10 @@
 package cap9.lab2;
 
 abstract public class Pessoa {
-	String nome;
-	int idade;
-	char sexo;
-	RG rg;
+	private String nome;
+	private int idade;
+	private char sexo;
+	private RG rg; //relacionameto TEM UM (pessoa usa RG)
 	
 	public void setNome(String nome){
 		this.nome = nome;
@@ -39,8 +39,8 @@ abstract public class Pessoa {
 	}
 	
 	
-	public Pessoa(String nome, int idade, char sexo, RG rg){
-		setNome(nome);
+	public Pessoa(String nome, int idade, char sexo, RG rg){  // parametro é quando declara o metodo
+		setNome(nome);										  // argumento é quando for invocar o metodo	
 		setIdade(idade);
 		setSexo(sexo);
 		setRg(rg);
