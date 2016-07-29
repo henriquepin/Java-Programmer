@@ -3,28 +3,38 @@ package cap10;
 public class Executa {
 	public static void main(String[] args) {
 		
-		Geladeira g = new Geladeira();
+		Eletrodomestico geladeira = new Geladeira();
 		
-		Televisao t = new Televisao();
+		Eletrodomestico televisao = new Televisao();
 		
-		Microondas m = new Microondas();
+		Eletrodomestico microondas = new Microondas();
 		
-		g.ligar();
-		g.descongelar();
-		g.desligar();
-		
-		System.out.println("---------------------");
-		
-		t.ligar();
-		t.trocarCanal();
-		t.desligar();
+		geladeira.ligar();		
+		geladeira.acionarTimer(60);
+		((Geladeira)geladeira).descongelar();//casting de objetos, no caso geladeira	
+		geladeira.desligar();
 		
 		System.out.println("---------------------");
 		
-		m.ligar();
-		m.assar();
-		m.aquecer();
-		m.desligar();
+		televisao.ligar();
+		televisao.acionarTimer(60);
+		((Televisao)televisao).trocarCanal();
+		televisao.desligar();
 		
+		System.out.println("---------------------");
+		
+		microondas.ligar();
+		microondas.acionarTimer(10);
+		((Microondas)microondas).aquecer();
+		((Microondas)microondas).assar();
+		microondas.desligar();
+		System.out.println("------------------");
+		
+		
+		Eletrodomestico.desligarTudo(geladeira, televisao, microondas);
+		
+		System.out.println("------------------");
+		
+		Eletrodomestico.desligarTudo(new Geladeira(), new Televisao(), new Microondas());//outra maneira de chamar o metodo desligarTudo
 	}
 }
