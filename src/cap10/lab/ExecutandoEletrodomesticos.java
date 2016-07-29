@@ -28,8 +28,9 @@ public class ExecutandoEletrodomesticos {
 }
 
 //static void executarAparelhos(Eletrodomestico[] aparelhos){
+
 //for(int i = 0; i < aparelhos.length; i++) {
-//	if(aparelhos[i] instanceof Geladeira){//metodo instanceof esta "perguntando" se eletrodomestico é um objeto "Geladeira"
+//	if(aparelhos[i] instanceof Geladeira){  //metodo instanceof esta "perguntando" se eletrodomestico é um objeto "Geladeira"
 //		aparelhos[i].ligar();
 //		((Geladeira) aparelhos[i]).descongelar();
 //	}
