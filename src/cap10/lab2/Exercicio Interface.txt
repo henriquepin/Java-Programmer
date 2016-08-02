@@ -1,0 +1,56 @@
+
+Pegar este exercício na rede:
+
+\\Instrutor\rita\cap10
+
+
+
+Laboratório Interface
+
+1 - Criar a interface Vendavel com as seguintes características
+	b) Deve conter as constantes ESCOLA recebendo "Impacta" e TELEFONE recebendo "11 3254 2200"
+	a) Um método que retorne o preço do curso de acordo com o código de modalidade
+	   (número 1 para curso online ou número 2 para curso presencial)
+
+2 - Desenvolver a super classe Curso com as seguintes características:
+	a) Atributos privados: nomeTreinamento e cargaHoraria
+	b) getters e setters
+	c) Construtor personalizado para inicializar atributos
+	d) Método exibirDados para mostrar os dados na tela
+
+3 - Desenvolver as classes JavaProgrammer e Redes, ambas devem herdar a Classe 
+    Curso e implentar a interface Vendavel.
+	a) No caso do Redes, se o número da modalidade for 1 (online), o preço do curso
+	   será R$ 620, se for 2 (presencial) o preço será R$ 1.190,00.
+	   
+	b)   O atributo da clase Redes será: sistemaOperacional
+
+	c) No caso da JavaProgrammer se o número da modalidade for 1 (online), o valor do curso
+	   será R$ 780, se for 2 (presencial) o valor será R$ 1.320,00.
+
+	d) O atributo da clase Java será: versaoDaLinguagem
+	
+	e) Ambas as classes devem ter (obrigatoriamente) Construtor personalizado para inicializar atributos
+
+4 - Criar a classe InfoVenda que deve:
+	a) instanciar dois objetos cursoJava e cursoRedes
+
+	b) conter o método cursoInfo, que deverá receber como parâmetros o objeto Vendavel e a modalidade, 
+	   para que possa imprimir na tela as informações ESCOLA, TELEFONE e o preço.
+
+	A saída desta classe deve ser:
+
+Escola: Impacta
+Fone: 11 3254 2200
+Nome do Curso: Java Programmer
+Carga Horária: 40
+Versão da Linguagem: 8.0
+custa: 1320.0
+------------------------------------------------------
+Escola: Impacta
+Fone: 11 3254 2200
+Nome do Curso: Redes
+Carga Horária: 40
+Sistema Operacional: Linux
+custa: 620.0
+------------------------------------------------------
