@@ -21,17 +21,20 @@ public class ConjuntoLambda {
 
 	public static void main(String[] args) {
 		
-		OperacaoAritmetica calculos[] = {(x,y) -> x + y, (x,y) -> x - y, (x,y) -> x * y, (x,y) -> x/y};
+		OperacaoAritmetica calculos[] = { (x,y) -> x + y, 
+										  (x,y) -> x - y, 
+										  (x,y) -> x * y, 
+										  (x,y) -> x/y };
 				
-//	OperacaoAritmetica calculos[] = new OperacaoAritmetica[4];
+//		OperacaoAritmetica calculos[] = new OperacaoAritmetica[4];
 //		
 //		calculos[0] = (x,y) -> x + y;
 //		calculos[1] = (x,y) -> x - y;
 //		calculos[2] = (x,y) -> x * y;
 //		calculos[3] = (x,y) -> x/y;
 	
-		for(OperacaoAritmetica operacao: calculos){
-			System.out.println(operacao.execute(40, 2));
+		for(OperacaoAritmetica operacaoAritmetica: calculos){
+			System.out.println(operacaoAritmetica.execute(24, 3));
 		}
 	}
 }
