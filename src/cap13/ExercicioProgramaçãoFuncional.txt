@@ -1,0 +1,10 @@
+Crie o pacote cap13.
+
+Nele, crie uma interface chamada OperacaoAritmetica que contenha o método execute
+o qual deve retornar double e receber dois doubles como parâmetros.
+
+Em seguida, crie as classes Soma, Multiplicacao, Divisao e Subtracao
+para implementar o método execute da interface OperacaoAritmetica.
+
+Agora, crie a classe UsaOperacaoAritmetica para testar o método executar para as classes Soma, 
+Multiplicacao, Divisao e Subtracao
