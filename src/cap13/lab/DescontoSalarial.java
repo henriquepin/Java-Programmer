@@ -11,9 +11,12 @@ public class DescontoSalarial {
 		
 		salariosLiquidos = DoubleArrayUtils.transformaValores(salariosBrutos, sal -> sal * 0.9);
 		
-		for(int i = 0; i < salariosLiquidos.length; i++){
-			System.out.println(salariosLiquidos[i]);
-			
-		}
+//		for(int i = 0; i < salariosLiquidos.length; i++){
+//			System.out.println(salariosLiquidos[i]);
+//			
+//		}
+		
+		DoubleArrayUtils.processaValores(salariosLiquidos, sal -> System.out.println(sal));
 	}
+	
 }
