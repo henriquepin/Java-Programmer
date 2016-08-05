@@ -5,6 +5,7 @@ public class Cap11Lab2 {
 		
 	if(args.length > 0){
 		int soma = 0;
+		String texto = "";
 		
 		for(int i = 0; i < args.length; i++){
 			soma += Integer.parseInt(args[i]);
