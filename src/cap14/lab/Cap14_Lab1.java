@@ -1,12 +1,12 @@
 package cap14.lab;
 
 import java.util.HashMap;
-import java.util.Map;
+//import java.util.Map;
 
 public class Cap14_Lab1 {
 	public static void main(String[] args) {
 		
-		Map<String, Integer> pessoaMap = new HashMap<>();
+		HashMap<String, Integer> pessoaMap = new HashMap<>();
 		
 		pessoaMap.put("Roberto", 35);
 		pessoaMap.put("Carla", 26);
