@@ -2,15 +2,15 @@ package cap17.lab;
 
 public class ThreadLab extends Thread {
 	
-	String texto;
+//	String texto;
 	
 	public ThreadLab(String texto){
-		this.texto = texto;
+		setName(texto);
 	}
 	
 	public void run(){
 		for(int i = 0; i < 10; i++){
-			System.out.println(texto);
+			System.out.println(getName());
 			metodoAuxiliar();
 			try{
 				Thread.sleep(500);
@@ -22,7 +22,7 @@ public class ThreadLab extends Thread {
 	
 	public synchronized void metodoAuxiliar(){
 		for(int i = 0; i < 10; i++){
-			System.out.println(texto);			
+			System.out.println(getName());			
 //			try{
 //				Thread.sleep(500);
 //			}catch (InterruptedException e) {
