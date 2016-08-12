@@ -14,8 +14,7 @@ public class Cap15_Lab02 {
 		
 		Path origem = Paths.get(PASTA_ORIGEM);		
 		Path backup = Paths.get(PASTA_BACKUP);
-		
-		
+				
 		try{
 			if(Files.exists(backup)){
 				System.out.println("Documento " + backup.getFileName() + " já existe");
